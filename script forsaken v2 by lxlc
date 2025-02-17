@@ -2836,7 +2836,45 @@ local function FartHubLoad()
 			end,
 		})
 
-		AnimationsTab:CreateSection("You can emote as killer using this.")
+		
+misctab:CreateDivider() 
+    
+     local Toggle8 = misctab:CreateToggle({
+        Name = "Hakari Dance",
+        CurrentValue = false,
+        
+        Callback = function(state)
+        activatethehakari(state)
+        end,
+     })
+    
+     local Toggle9 = misctab:CreateToggle({
+        Name = "Aw Shucks [PAID EXECS]",
+        CurrentValue = false,
+        
+        Callback = function(state)
+        activatethesilly(state)
+        end,
+     })
+    
+     local Toggle10 = misctab:CreateToggle({
+        Name = "Aw Shucks [FREE EXECS]",
+        CurrentValue = false,
+        
+        Callback = function(state)
+        activatethesilly2(state)
+        end,
+     })
+    
+     local Toggle11 = misctab:CreateToggle({
+        Name = "Miss the Quiet",
+        CurrentValue = false,
+       
+        Callback = function(state)
+        activatethequiet(state)
+        end,
+     })
+    AnimationsTab:CreateSection("You can emote as killer using this.")
 
 		local AnimationsTabKeybindGUI = AnimationsTab:CreateKeybind({
 			Name = "Emote As Killer GUI",
