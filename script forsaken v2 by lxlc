@@ -2264,7 +2264,7 @@ local function FartHubLoad()
 
 		local function editAll()
 			if imageButton1 then
-				imageButton1.Image = "http://www.roblox.com/asset/?id=111190623546159"
+				imageButton1.Image = "http://www.roblox.com/asset/?id=84798584715869"
 				imageButton1.Activated:Connect(toggleGUI)
 				imageButton1.MouseEnter:Connect(function()
 					Tooltip(imageButton1, "AnimationUI.")
@@ -2277,7 +2277,7 @@ local function FartHubLoad()
 				end)
 			end
 			if imageButton2 then
-				imageButton2.Image = "http://www.roblox.com/asset/?id=112297625224060"
+				imageButton2.Image = "http://www.roblox.com/asset/?id=84798584715869"
 				imageButton2.Activated:Connect(FortniteFlips)
 				imageButton2.MouseEnter:Connect(function()
 					Tooltip(imageButton2, "Frontflip.")
@@ -2290,7 +2290,7 @@ local function FartHubLoad()
 				end)
 			end
 			if imageButton3 then
-				imageButton3.Image = "http://www.roblox.com/asset/?id=95210015051364"
+				imageButton3.Image = "http://www.roblox.com/asset/?id=84798584715869"
 				imageButton3.Activated:Connect(function()
 					if CoolDownBlockers then return end
 					CoolDownBlockers = true
